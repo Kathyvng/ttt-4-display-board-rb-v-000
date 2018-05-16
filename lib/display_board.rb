@@ -1,14 +1,7 @@
 board = [" "," "," "," "," "," "," "," "," "]
-def display_board
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
+display_board (board)
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-def display_board (board)
-board[4]="X"
-  puts "#{board[4]}"
-end
+display_board(board)
+
+
